@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #EEE2DF;
+  margin: 10px;
+  padding: 20px;
+  line-height: 30px;
+}
+
+h1{
+  color: #B36A5E;
+  font-family: 'Open Sans';
+  /* margin: 10px; */
+}
+
+h2 {
+  color: #C97C5D;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  /* margin-top: 10px; */
+  font-size: 20px;
+  font-weight: bolder;
+  color: #C89F9C;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+a:hover {
+  color: white;
+  background-color: #C89F9C;
+}
+p{
+margin-bottom: 20px;
+}
+
+ul li {
+  /* margin: 10px; */
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.main-content {
+  width: 800px;
+  margin: 25px auto;
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+  border: 1px solid;
+}
+
+.social {
+  width: 800px;
+  margin:0 auto;
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+  border: 1px solid;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 12px;
+}
+
+
+
+/* For screens up to 960px */
+@media (max-width: 960px) {
+  .main-content {
+    width: 700px;
+  }
+
+  .social {
+    width: 700px;
+  }
+}
+
+/* For screens up to 720px */
+@media (max-width: 720px) {
+  .main-content {
+    width: 500px;
+  }
+
+  .social {
+    width: 500px;
+  }
+}
+
+/* For screens up to 540px */
+@media (max-width: 540px) {
+  .main-content {
+    width: 300px;
+  }
+
+  .social {
+    width: 300px;
+  }
+}
